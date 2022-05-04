@@ -39,11 +39,10 @@ def ej11():
     laburantes = int(input("cuántos laburaron? "))
     diastotales = 0
     while dia != 0:
-        cantlaburante, horasanteriores, esteeselpibe, esteessupromedio, horastrabajadas = 0
-        # horasanteriores = 0
-        # esteeselpibe = 0
-        # esteessupromedio = 0
-        # horastrabajadas = 0
+        horasanteriores = 0
+        esteeselpibe = 0
+        esteessupromedio = 0
+        horastrabajadas = 0
         for pibe in range(1, laburantes + 1):
             doxxeado = int(input("doxxealo al pibe que labura "))
             horas = int(input("cuánto laburó? "))
